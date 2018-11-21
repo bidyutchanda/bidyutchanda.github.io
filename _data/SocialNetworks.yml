@@ -19,7 +19,7 @@ goodreads:
 quora:
   name: "Quora"
   baseURL: "https://www.quora.com/"
-  icon: "fa fa-quora"
+  icon: "fa-quora"
 
 github:
   name: "GitHub"
