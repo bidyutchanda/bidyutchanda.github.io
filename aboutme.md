@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: AKA, where we know each a li'l bit more
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi there!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+A short intro before we talk. I am Bidyudipta Chanda, better called by (as you have already noticed from the website) Bidyut or Bidyudipta. A little exercise for you to know my age? (I was born in 1996.) Almost all you guys know the place I come from; Kolkata, India and yes, I am a Bengali. Right now, I am working as an IT consultant at an MNC from Bangalore. When I am not in office and not busy reading or being on Netflix, I create those what you just saw on the main page. Enough technology on that page and enough About Me. What about you? I want to know you what is going on in your mind.
 
-What else do you need?
+Drop a mail via the button below or contact me on +91-7501481297.
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**Let’s create something together.**
