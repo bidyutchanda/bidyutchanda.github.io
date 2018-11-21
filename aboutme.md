@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: AKA, where we know each a li'l bit more
+subtitle: AKA, where we know each other a li'l bit more
 ---
 
 Hi there!
