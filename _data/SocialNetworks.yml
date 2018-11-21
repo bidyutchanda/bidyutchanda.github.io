@@ -10,6 +10,11 @@ facebook:
   name: "Facebook"
   baseURL: "https://www.facebook.com/"
   icon: "fa-facebook"
+  
+quora:
+  name: "Quora"
+  baseURL: "https://www.quora.com/"
+  icon: "fa-quora"
 
 github:
   name: "GitHub"
