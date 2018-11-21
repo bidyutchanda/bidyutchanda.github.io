@@ -11,6 +11,11 @@ facebook:
   baseURL: "https://www.facebook.com/"
   icon: "fa-facebook"
   
+goodreads:
+  name: "Goodreads"
+  baseURL: "https://www.goodreads.com/user/show/"
+  icon: "fa-goodreads"
+  
 quora:
   name: "Quora"
   baseURL: "https://www.quora.com/"
