@@ -73,7 +73,6 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: false
   email: "bdptma108@gmail.com"
   facebook: bidyudipta.chanda
   github: bidyutchanda
@@ -81,8 +80,8 @@ social-network-links:
 #  reddit: yourname
 #  google-plus: +DeanAttali
   linkedin: bidyutchanda
-  quora: Bidyudipta-Chanda
-  goodreads: 26909690-bidyudipta-chanda
+ # quora: Bidyudipta-Chanda
+ # goodreads: 26909690-bidyudipta-chanda
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -103,7 +102,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
