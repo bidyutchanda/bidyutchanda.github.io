@@ -10,4 +10,6 @@ A short intro before we talk. I am Bidyudipta Chanda, better called by (as you h
 
 Drop a mail via the button below or contact me on +91-7501481297.
 
+<img src="/img/briefcase-solid.svg" align="left" height="20" width="20" />
+
 **Let’s create something together.**
