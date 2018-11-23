@@ -6,7 +6,7 @@ subtitle: AKA, where we know each other a li'l bit more
 
 <img src="/img/briefcase-solid.svg" align="left" height="20" width="20" hspace="14" />Currently a full time Manual and Automation Tester at [SAP Labs India](https://www.sap.com/india/about.saplabsindia.html). Previously worked as a blogger at [The Cinemaholic](https://www.thecinemaholic.com/author/bidyudipta/).
 
-<img src="/img/user-graduate-solid.svg" align="left" height="20" width="20" hspace="14" />Obtained my Bachelor of **Computer Science and Engineering** from Heritage Institute of Technology, Kolkata, India. My final year project involved extracting sentiments out from a tweet to project them on a world map.
+<img src="/img/user-graduate-solid.svg" align="left" height="20" width="20" hspace="14" />Obtained my Bachelor of **Computer Science and Engineering** from Heritage Institute of Technology, Kolkata, India. My final year project involved [extracting sentiments out from a tweet to project them on a world map](https://bidyutchanda.github.io/2018-11-23-twitter/).
 
 <img src="/img/terminal-solid.svg" align="left" height="20" width="20" hspace="14" />I love to write codes in Python, especially, when I am working on my laptop to make my and everyone's lives a little bit easier. Every one of my project is listed in the [Blog](https://bidyutchanda.github.io/) link in the navigation bar. 
 
