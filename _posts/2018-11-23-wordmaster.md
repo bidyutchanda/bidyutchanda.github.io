@@ -31,7 +31,7 @@ All the packages used in this project are open-source and are available at PyPi.
 
 The code opens with the import statements to import all the packages which I have used for this. 
 
-```javascript
+```python
 from textblob import TextBlob
 from datetime import datetime
 from nltk.corpus import wordnet
