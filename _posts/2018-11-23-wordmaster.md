@@ -31,12 +31,12 @@ All the packages used in this project are open-source and are available at PyPi.
 
 The code opens with the import statements to import all the packages which I have used for this. 
 
-~~~
+```javascript
 from textblob import TextBlob
 from datetime import datetime
 from nltk.corpus import wordnet
 import ety
-~~~
+```
 
 A dictionary of language code, language name pair is hard-coded for reference and a word and a choice integer (for displaying the meaning or translating it) is asked from the user.
 
@@ -79,7 +79,7 @@ ety.tree(word)
 The GitHub page for this code, which I had linked earlier to this post, remains a better parallel explanation for this code. I will leave an image for this project here, which shows the working of the whole thing live, when you **click the image**.
 
 <p align="center">
-[![WORDMASTER](https://img.youtube.com/vi/ZZyOHoSNteY/0.jpg)](https://www.youtube.com/watch?v=ZZyOHoSNteY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZZyOHoSNteY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 
