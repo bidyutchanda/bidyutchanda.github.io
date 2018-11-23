@@ -4,74 +4,12 @@ title: Word Master
 subtitle: Finding more about a word via a Python script
 show-avatar: false
 bigimg: /img/wordmaster.png
-image: /img/wordmaster.png
 share-img: /img/wordmaster.png
 gh-repo: bidyutchanda/WordMaster
 gh-badge: [star, fork, follow]
 tags: [python,word,nlp,nltk,textblob,etymology]
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+**Story behind this project:**  First things first, for quite a long time now, my girlfriend and I have been obsessing over languages, words, their histories and roots.
 
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+And we found ourselves neck-deep in the search for the meanings of unknown and strange words, reading blogs about the most beautiful words from diverse languages, racking our brains over the mind-boggling stories each of these trace back to (we found the word _komorebi_ exceptionally beautiful, the meaning of which is for you to find out). We would spend hours on Google looking these up and translating them to English and back to their original languages and finding the roots of those words (A subject called etymology, which was an interesting find for me). Now, I will admit that doing these things in 2018 is so much easier than before, say 10 years ago. Translation is not such a pain now thanks to Google Translate and finding its meaning or its etymological roots has never been quicker and easier. But soon I became tired of these long searches for each word and devised something that would make my task easier, the description of which starts below. 
