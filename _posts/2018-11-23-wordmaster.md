@@ -20,4 +20,14 @@ And we found ourselves neck-deep in the search for the meanings of unknown and s
 
 You can find the code for this project at GitHub [here](https://github.com/bidyutchanda/WordMaster) and can fork or star it from the buttons above. 
 
+## Packages used  
+
+All the packages used in this project are open-source and are available at PyPi.
+* [NLTK](http://nltk.org) - Statistical natural language processing for English.
+* [TextBlob](https://textblob.readthedocs.io/en/dev/) - For processing textual data.
+* [ety](https://github.com/jmsv/ety-python) - To analyse etymologies of text written by various historical authors.
+
+
+
+
 
