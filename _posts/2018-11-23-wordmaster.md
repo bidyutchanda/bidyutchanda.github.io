@@ -27,6 +27,19 @@ All the packages used in this project are open-source and are available at PyPi.
 * [TextBlob](https://textblob.readthedocs.io/en/dev/) - For processing textual data.
 * [ety](https://github.com/jmsv/ety-python) - To analyse etymologies of text written by various historical authors.
 
+## Working of the script
+
+The code opens with the import statements to import all the packages which I have used for this. 
+
+```javascript
+from textblob import TextBlob
+from datetime import datetime
+from nltk.corpus import wordnet
+import ety
+```
+
+
+
 
 
 
