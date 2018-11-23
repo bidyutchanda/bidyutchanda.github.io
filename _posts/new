@@ -1,0 +1,8 @@
+---
+layout: post
+title: Word Master
+subtitle: Finding more about a word via a Python script
+gh-repo: bidyutchanda/WordMaster
+gh-badge: [star, fork, follow]
+tags: [python,word,nltk,textblob,nlp,etymology]
+---
