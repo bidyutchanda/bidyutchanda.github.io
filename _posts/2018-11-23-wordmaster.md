@@ -76,7 +76,8 @@ At the end, whatever the choice of the user be, the etymological roots of a word
 ety.tree(word)
 ```
 
-The GitHub page for this code, which I had linked earlier to this post, remains a better parallel explanation for this code. I will leave an image for this project here, which shows the working of the whole thing live, when you **click the image**.
+The GitHub page for this code, which I had linked earlier to this post, remains a better parallel explanation for this code. I will leave an embedded video for this project here, which shows the working of the whole thing live.
+
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZyOHoSNteY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
