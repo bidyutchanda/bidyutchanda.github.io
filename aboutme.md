@@ -10,5 +10,5 @@ A short intro before we talk. I am Bidyudipta Chanda, better called by (as you h
 
 Drop a mail via the button below or contact me on +91-7501481297.
 
-<img src="/img/briefcase-solid.svg" align="left" height="20" width="20" hspace="20" /> Currently a dual Manual and Automation Tester at SAP Labs India. Previously worked as a blogger at [The Cinemaholic](https://www.thecinemaholic.com/author/bidyudipta/).
+<img src="/img/briefcase-solid.svg" align="left" height="20" width="20" hspace="14" /> Currently a dual Manual and Automation Tester at SAP Labs India. Previously&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;worked as a blogger at [The Cinemaholic](https://www.thecinemaholic.com/author/bidyudipta/).
 
