@@ -2,9 +2,13 @@
 layout: post
 title: Word Master
 subtitle: Finding more about a word via a Python script
+show-avatar: false
+bigimg: /img/wordmaster.png
+image: /img/wordmaster.png
+share-img: /img/wordmaster.png
 gh-repo: bidyutchanda/WordMaster
 gh-badge: [star, fork, follow]
-tags: [pythnon,word,nlp,nltk,textblob,etymology]
+tags: [python,word,nlp,nltk,textblob,etymology]
 ---
 
 You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
