@@ -31,12 +31,56 @@ All the packages used in this project are open-source and are available at PyPi.
 
 The code opens with the import statements to import all the packages which I have used for this. 
 
-```python
+```javascript
 from textblob import TextBlob
 from datetime import datetime
 from nltk.corpus import wordnet
 import ety
 ```
+
+A dictionary of language code, language name pair is hard-coded for reference and a word and a choice integer (for displaying the meaning or translating it) is asked from the user.
+
+I, now, use TextBlob to feed the word into it and detect the language from it. 
+
+```javascript
+toTB="" 
+toTB=TextBlob(word)
+toTB_lang=toTB.detect_language()
+```
+
+Wordnet from NLTK is used to tell the meaning of the word, which is first translated to English, if a word in some other language was entered in the first place. 
+
+```javascript
+syns = wordnet.synsets(word)
+print(syns[0].definition()) 
+```
+
+Now comes the translation part. The challenge here I faced is an user won't know the ISO code of a language and while asking the name of a language into which to translate in, I get a language name whereas TextBlob needs a language code for translation. So, I wrote a function explicitly for this into which the dictionary which I had previously hardcoded was fed and any language name inputted returns the language code for it. 
+
+```javascript
+def langCode_to_lang(list,langName):
+	return [langCode for langCode,toLang in list.iteritems() if toLang 
+        == langName]
+```
+
+The word is translated to the desired language via :
+
+```javascript
+langCode=langCode_to_lang(langcodes,toLang) 
+toTB.translate(to=langCode[0])
+```
+
+At the end, whatever the choice of the user be, the etymological roots of a word is displayed anyway. 
+
+```javascript
+ety.tree(word)
+```
+
+The GitHub page for this code, which I had linked earlier to this post, remains a better parallel explanation for this code. I will leave an image for this project here, which shows the working of the whole thing live, when you **click the image**.
+
+[![WORDMASTER](https://img.youtube.com/vi/ZZyOHoSNteY/0.jpg)](https://www.youtube.com/watch?v=ZZyOHoSNteY)
+
+
 
 
 
