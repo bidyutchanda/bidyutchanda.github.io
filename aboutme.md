@@ -10,7 +10,7 @@ subtitle: AKA, where we know each other a li'l bit more
 
 <img src="/img/terminal-solid.svg" align="left" height="20" width="20" hspace="14" />I love to write codes in Python, especially, when I am working on my laptop to make my and everyone's lives a little bit easier. Every one of my project is listed in the [Blog](https://bidyutchanda.github.io/) link in the navigation bar. 
 
-<img src="/img/grin-hearts-solid.svg" align="left" height="20" width="20" hspace="14" />My favorite football team is Manchester United and I follow them week in, week out. I love to read books to take my mind off things, my last book read has Arundhati Roy's [The God of Small Things](https://en.wikipedia.org/wiki/The_God_of_Small_Things). Also, most of my Internet data is taken up by Spotify, for searching any new rock song in the radar. My all-time favourite rock song is [Sweet Child O' Mine](https://www.youtube.com/watch?v=1w7OgIMMRc4) by Guns N' Roses. 
+<img src="/img/grin-hearts-solid.svg" align="left" height="20" width="20" hspace="14" />My favorite football team is Manchester United and I follow them week in, week out. I love to read books to take my mind off things, my last book has been Arundhati Roy's [The God of Small Things](https://en.wikipedia.org/wiki/The_God_of_Small_Things). Also, most of my Internet data is taken up by Spotify, for searching any new rock song in the radar. My all-time favourite rock song is [Sweet Child O' Mine](https://www.youtube.com/watch?v=1w7OgIMMRc4) by Guns N' Roses. 
 
 <img src="/img/map-solid.svg" align="left" height="20" width="20" hspace="14" />Grew up in Burdwan, a small town in West Bengal, India; stayed in Kolkata for four years to complete my Bachelors. Currently, residing in Bangalore, Karnataka. 
 
