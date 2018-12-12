@@ -1,10 +1,10 @@
 /* Adjusted to give override background and text colour */
 .highlight pre, pre, .highlight .hll {
   background-color: #000000;
-  border: 1px solid #ccc;
+/*  border: 1px solid #ccc; 
   padding: 6px 10px;
   border-radius: 3px;
-  color: #000000;
+  color: #000000; */
 }
 
 .gist pre {
