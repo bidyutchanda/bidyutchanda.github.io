@@ -1,5 +1,6 @@
 /* Adjusted to give override background and text colour */
 .highlight pre, pre, .highlight .hll {
+  background: #ffffff;
   background-color: #000000;
 /*  border: 1px solid #ccc; 
   padding: 6px 10px;
