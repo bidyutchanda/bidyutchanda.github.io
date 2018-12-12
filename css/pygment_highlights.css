@@ -27,7 +27,7 @@
 .highlight .gp,.highlight .gs,.highlight .gt,.highlight .ld,.highlight .s,.highlight .nc,.highlight .nd,
 .highlight .ne,.highlight .nl,.highlight .nn,.highlight .nx,.highlight .py,.highlight .ow,.highlight .w,.highlight .sb,
 .highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx,.highlight .sr,
-.highlight .s1,.highlight .ss,.highlight .bp { color: #C1C2C3; }
+.highlight .s1,.highlight .ss,.highlight .bp { font-weight: bold; color: #C1C2C3; }
 .highlight .k,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr,
 .highlight .nt { font-weight: bold; color: #729fcf; }
 .highlight .cp,.highlight .gh,.highlight .gu,.highlight .na,.highlight .nf { font-weight: bold; color: #E9A94B ; }
