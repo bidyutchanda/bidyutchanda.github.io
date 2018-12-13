@@ -1,0 +1,560 @@
+
+# **Manchester United Data Analysis #1 : How did the new managers fare at their new jobs? **
+
+
+## This data visualization project gives a detailed insight on how David Moyes, Louis Van Gaal and Jose Mourinho performed at the club when they became managers in their respective seasons taking into account the number of wins and losses during each season of their stay. 
+
+### This notebook is divided into the following categories.
+<br>
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. [About the club](#About-the-club)**
+<br>
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. [Importing the dataset](#Importing-the-dataset)**
+<br>
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. [General Overview of Wins and Losses for Manchester United from seasons 2006-07 to 2017-18](#General-Overview-of-Wins-and-Losses-for-Manchester-United-from-seasons-2006-07-to-2017-18)**
+<br>
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A. [Extracting data that is valid only for Manchester United. ](#A.-Extracting-data-that-is-valid-only-for-Manchester-United. )**
+<br>
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B. [Slicing the original DataFrame into two.](#B.-Slicing-the-original-DataFrame-into-two.)**
+<br>
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. [Creating the Matplotlib plot.](#C.-Creating-the-Matplotlib-plot.)**
+<br>
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D. [Comparing results from the plot.](#D.-Comparing-results-from-the-plot.)**
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **1. [Comparing the first seasons after coming of new managers](#1.-Comparing-the-first-seasons-after-coming-of-new-managers)**
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **2. [Comparing the second seasons after coming of new managers](#2.-Comparing-the-second-seasons-after-coming-of-new-managers)**
+<br>
+
+**Note:** This project is in progress with more analysis on the same dataset coming up, including *Comparison for Attack and Defense across seasons* and how the team* compares with the other top-tier teams of the Premier League*. Links to those will be provided once they are ready for display. Comments and critical feedbacks are welcome. 
+
+# **About the club**
+
+
+Manchester United, popularly nicknamed as 'The Red Devils', has unarguably been one of the most successful clubs in football history. They have won more trophies than any other club in English football, with a record 20 League titles, 12 FA Cups, 5 League Cups and a record 21 FA Community Shields. United have also won three UEFA Champions Leagues, one UEFA Europa League, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club became the first in the history of English football to achieve the continental European treble. By winning the UEFA Europa League in 2016–17, they became one of five clubs to have won all three main UEFA club competitions, and the only English club to have won every ongoing top-flight honour available to them.
+
+Sir Alex Ferguson has been the most successful manager for the club.  Sir Alex won 38 trophies as manager, including 13 Premier League titles, 5 FA Cups and 2 UEFA Champions Leagues, between 1986 and 2013, when he announced his retirement. 
+
+David Moyes then took over in 2013, a time of tumult  for the club  after SAF decided to step down. Hailed as the perfect successor to Sir Alex, he was sacked after one season, due to lack of performance. 
+
+Then came in Louis Van Gaal, the famous coach for an once-all star team of Netherlands and Bayern Munich, in 2014. The tenure of his stay was 2 years and he was sacked in 2016, in the face of huge protests of fans and was accused of destroying Manchester United's signature style of play. 
+
+Following this, the club roped in Jose Mourinho for the job, an extremely controversial person for many reasons, a man who had won the Champions League with Porto and the Premier League with Chelsea, a 'man of heavy words', as many of his critics say. 
+
+Were Moyes and Van Gaal really worth their salt? Did Mourinho really bring back the glory days back or can he still now? Did Manchester United find the _perfect successor_ for SAF? 
+
+**So, how did each of the new managers fare in their newly appointed duties? A duty, which demands great responsibility and Herculean to say the least, the duty to instill fear in the minds of opponents whenever they say their name, the duty to bring back the team to their former glory as the 'Red Devils', and to reign in The Theatre of Dreams.**
+
+
+
+
+
+
+# **Importing the dataset**
+
+
+```python
+import pandas as pd
+import numpy as np
+data = pd.read_csv('../input/stats.csv')
+```
+
+
+```python
+data.head()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>team</th>
+      <th>wins</th>
+      <th>losses</th>
+      <th>goals</th>
+      <th>total_yel_card</th>
+      <th>total_red_card</th>
+      <th>total_scoring_att</th>
+      <th>ontarget_scoring_att</th>
+      <th>hit_woodwork</th>
+      <th>att_hd_goal</th>
+      <th>att_pen_goal</th>
+      <th>att_freekick_goal</th>
+      <th>att_ibox_goal</th>
+      <th>att_obox_goal</th>
+      <th>goal_fastbreak</th>
+      <th>total_offside</th>
+      <th>clean_sheet</th>
+      <th>goals_conceded</th>
+      <th>saves</th>
+      <th>outfielder_block</th>
+      <th>interception</th>
+      <th>total_tackle</th>
+      <th>last_man_tackle</th>
+      <th>total_clearance</th>
+      <th>head_clearance</th>
+      <th>own_goals</th>
+      <th>penalty_conceded</th>
+      <th>pen_goals_conceded</th>
+      <th>total_pass</th>
+      <th>total_through_ball</th>
+      <th>total_long_balls</th>
+      <th>backward_pass</th>
+      <th>total_cross</th>
+      <th>corner_taken</th>
+      <th>touches</th>
+      <th>big_chance_missed</th>
+      <th>clearance_off_line</th>
+      <th>dispossessed</th>
+      <th>penalty_save</th>
+      <th>total_high_claim</th>
+      <th>punches</th>
+      <th>season</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Manchester United</td>
+      <td>28.0</td>
+      <td>5.0</td>
+      <td>83.0</td>
+      <td>60.0</td>
+      <td>1.0</td>
+      <td>698.0</td>
+      <td>256.0</td>
+      <td>21.0</td>
+      <td>12.0</td>
+      <td>5.0</td>
+      <td>1.0</td>
+      <td>72.0</td>
+      <td>11.0</td>
+      <td>9.0</td>
+      <td>80.0</td>
+      <td>16.0</td>
+      <td>27.0</td>
+      <td>2.0</td>
+      <td>81.0</td>
+      <td>254.0</td>
+      <td>890.0</td>
+      <td>1.0</td>
+      <td>1222.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>5.0</td>
+      <td>3.0</td>
+      <td>18723.0</td>
+      <td>NaN</td>
+      <td>2397.0</td>
+      <td>NaN</td>
+      <td>918.0</td>
+      <td>258.0</td>
+      <td>25686.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>37.0</td>
+      <td>25.0</td>
+      <td>2006-2007</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Chelsea</td>
+      <td>24.0</td>
+      <td>3.0</td>
+      <td>64.0</td>
+      <td>62.0</td>
+      <td>4.0</td>
+      <td>636.0</td>
+      <td>216.0</td>
+      <td>14.0</td>
+      <td>16.0</td>
+      <td>3.0</td>
+      <td>6.0</td>
+      <td>41.0</td>
+      <td>23.0</td>
+      <td>6.0</td>
+      <td>127.0</td>
+      <td>22.0</td>
+      <td>24.0</td>
+      <td>4.0</td>
+      <td>74.0</td>
+      <td>292.0</td>
+      <td>982.0</td>
+      <td>0.0</td>
+      <td>1206.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>2.0</td>
+      <td>16759.0</td>
+      <td>NaN</td>
+      <td>2270.0</td>
+      <td>NaN</td>
+      <td>897.0</td>
+      <td>231.0</td>
+      <td>24010.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>74.0</td>
+      <td>22.0</td>
+      <td>2006-2007</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Liverpool</td>
+      <td>20.0</td>
+      <td>10.0</td>
+      <td>57.0</td>
+      <td>44.0</td>
+      <td>0.0</td>
+      <td>668.0</td>
+      <td>214.0</td>
+      <td>15.0</td>
+      <td>8.0</td>
+      <td>6.0</td>
+      <td>1.0</td>
+      <td>46.0</td>
+      <td>11.0</td>
+      <td>3.0</td>
+      <td>120.0</td>
+      <td>20.0</td>
+      <td>27.0</td>
+      <td>1.0</td>
+      <td>65.0</td>
+      <td>246.0</td>
+      <td>969.0</td>
+      <td>2.0</td>
+      <td>1115.0</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>17154.0</td>
+      <td>NaN</td>
+      <td>2800.0</td>
+      <td>NaN</td>
+      <td>1107.0</td>
+      <td>282.0</td>
+      <td>24150.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>51.0</td>
+      <td>27.0</td>
+      <td>2006-2007</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Arsenal</td>
+      <td>19.0</td>
+      <td>8.0</td>
+      <td>63.0</td>
+      <td>59.0</td>
+      <td>3.0</td>
+      <td>638.0</td>
+      <td>226.0</td>
+      <td>19.0</td>
+      <td>10.0</td>
+      <td>10.0</td>
+      <td>3.0</td>
+      <td>53.0</td>
+      <td>10.0</td>
+      <td>7.0</td>
+      <td>111.0</td>
+      <td>12.0</td>
+      <td>35.0</td>
+      <td>6.0</td>
+      <td>73.0</td>
+      <td>214.0</td>
+      <td>998.0</td>
+      <td>1.0</td>
+      <td>1202.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>18458.0</td>
+      <td>NaN</td>
+      <td>2045.0</td>
+      <td>NaN</td>
+      <td>873.0</td>
+      <td>278.0</td>
+      <td>25592.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>88.0</td>
+      <td>27.0</td>
+      <td>2006-2007</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Tottenham Hotspur</td>
+      <td>17.0</td>
+      <td>12.0</td>
+      <td>57.0</td>
+      <td>48.0</td>
+      <td>3.0</td>
+      <td>520.0</td>
+      <td>184.0</td>
+      <td>6.0</td>
+      <td>5.0</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>44.0</td>
+      <td>13.0</td>
+      <td>9.0</td>
+      <td>149.0</td>
+      <td>6.0</td>
+      <td>54.0</td>
+      <td>11.0</td>
+      <td>128.0</td>
+      <td>276.0</td>
+      <td>995.0</td>
+      <td>2.0</td>
+      <td>1412.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>7.0</td>
+      <td>6.0</td>
+      <td>14914.0</td>
+      <td>NaN</td>
+      <td>2408.0</td>
+      <td>NaN</td>
+      <td>796.0</td>
+      <td>181.0</td>
+      <td>22200.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>51.0</td>
+      <td>24.0</td>
+      <td>2006-2007</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+# **General Overview of Wins and Losses for Manchester United from seasons 2006-07 to 2017-18**
+
+## A. Extracting data that is valid only for Manchester United. 
+
+
+```python
+data_united = data[data.team=='Manchester United']
+#Extracting only data that is valid for Manchester United.
+```
+
+## B. Slicing the original DataFrame into two.
+
+### One for Wins v Season.
+
+
+```python
+features_wins = ['wins','season'] 
+data_winsVseason = data_united[features_wins] #Extracting out wins for every season.
+```
+
+### And another for Losses v Season. 
+
+
+```python
+features_loss= ['losses','season']
+data_lossVseason = data_united[features_loss] #Extracting out losses for every season.
+```
+
+## C. Creating the Matplotlib plot.
+
+
+```python
+import matplotlib.pyplot as plt
+
+#Plotting Wins and Losses v/s Season
+plt.rcParams['figure.figsize'] = [12, 8] #creates a graph of 10x7 inches
+plt.plot(data_winsVseason.season, data_winsVseason.wins, label = 'Wins', marker='o') #plot Wins v Season
+plt.plot(data_lossVseason.season, data_lossVseason.losses, label = 'Losses', marker='o') #plot Loss vs Season, with markers and label
+plt.ylim(0,30) #for setting y limits from 15 to 30.
+plt.grid(which='major', axis='both', linestyle='-.', linewidth=0.75) #plotting grid. See pyplot.grid in Google.
+plt.xticks(rotation=60, fontsize=14) #rotate x axis labels and increase font.
+plt.yticks(fontsize=14) #increase yticks fontsize.
+plt.legend(fontsize=14) #show labels as legend
+plt.title('Wins and Losses v/s Season', fontsize = 20)
+
+try: #try catch is used because here x-coord is a string like 2006-2007 and hence gives a TypeError. So TypeError errors are overlooked in except statement.
+    
+    plt.annotate('Moyes comes in', xy=('2013-2014',19), xytext=('2013-2014', 21),arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=8), fontsize =10) 
+    #For the wins curve. The label is Moyes comes in.
+    #xy is the position of marker point. xytext is position of label text. 
+    
+    plt.annotate('Moyes comes in', xy=('2013-2014',12), xytext=('2013-2014', 14),arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=8), fontsize =10) 
+    #For losses curve. The label is Moyes comes in.
+    
+    plt.annotate('Van Gaal comes in', xy=('2014-2015',20), xytext=('2014-2015', 23),arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=8), fontsize =10) 
+    #For wins curve when LVG comes in.
+    
+    plt.annotate('Van Gaal comes in', xy=('2014-2015',8), xytext=('2014-2015', 11),arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=8), fontsize =10)
+    #For losses curve when LVG comes in.
+    
+    plt.annotate('Mourinho comes in', xy=('2016-2017',18), xytext=('2016-2017', 20),arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=8), fontsize =10) 
+    #For wins curve when Mou comes in. 
+    
+    plt.annotate('Mourinho comes in', xy=('2016-2017',5), xytext=('2016-2017', 8),arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=8), fontsize =10) 
+    #For losses curve when Mou comes in. 
+    
+    plt.text('2009-2010',16,'The Famous SAF Era', horizontalalignment='center', verticalalignment='center', fontsize =16, bbox=dict(facecolor='red', alpha=0.5)) 
+    #For the middle big text
+except TypeError: 
+    pass
+
+
+```
+
+
+![png](kernel_files/kernel_13_0.png)
+
+
+## D. Comparing results from the plot.
+
+### 1. Comparing the first seasons after coming of new managers
+
+#### **1. David Moyes**
+
+* **First Season (2013-14) : ** 
+
+    Total number of matches = 38
+
+    Total number of wins = 19
+    
+    Percentage number of wins = 19/38 = 50%
+    
+    Total number of losses = 12
+    
+    Percentage number of losses = 12/38 = 31.6%
+
+    *Decrease* in wins than last season = 28 - 19 = 9
+
+    *Increase* in losses than last season = 12 - 5 = 7
+    
+   
+
+<br>
+#### **2. Louis Van Gaal**
+
+* **First Season (2014-15) : ** 
+
+     Total number of matches = 38
+
+    Total number of wins = 20
+    
+    Percentage number of wins = 20/38 = 52.6%
+    
+    Total number of losses = 8
+    
+    Percentage number of losses = 8/38 = 21%
+
+    *Increase* in wins than last season = 20 - 19 = 1
+
+    *Decrease* in losses than last season = 12 - 8 = 4
+    
+    
+    
+ <br>
+#### **3. Jose Mourinho**
+
+* **First Season (2016-17) : ** 
+
+     Total number of matches = 38
+
+    Total number of wins = 18
+    
+    Percentage number of wins = 18/38 = 47.4%
+    
+    Total number of losses = 5
+    
+    Percentage number of losses = 5/38 = 13.2%
+
+    *Decrease* in wins than last season = 19 - 18 = 1
+
+    *Decrease* in losses than last season = 10 - 5 = 5
+    
+    
+    
+<br>
+#### **Final Verdict:**
+<br>
+According to the number of wins, i.e., from the win percentage of seasons, **Louis Van Gaal** had his most successful first season among the three with 52.6% of wins among all matches. 
+<br>
+According to the number of losses, i.e., from the loss percentage of seasons, it was **Jose Mourinho's** first season which saw the least 13.2% losses from all matches.
+
+
+### 2. Comparing the second seasons after coming of new managers
+
+#### **1. Louis Van Gaal**
+
+* **Second Season (2015-16) : ** 
+
+     Total number of matches = 38
+
+    Total number of wins = 19
+    
+    Percentage number of wins = 19/38 = 50.0%
+    
+    Total number of losses = 10
+    
+    Percentage number of losses = 10/38 = 26.3%
+    
+    
+<br>
+#### **2. Jose Mourinho**
+
+* **Second Season (2017-18) : ** 
+
+     Total number of matches = 38
+
+    Total number of wins = 25
+    
+    Percentage number of wins = 25/38 = 65.8% 
+    
+    Total number of losses = 7
+    
+    Percentage number of losses = 7/38 = 18.4%
+    
+    
+    
+<br>
+#### **Final Verdict:**
+<br>
+According to the number of wins, i.e., from the win percentage of seasons, **Jose Mourinho** had a much more successful second season at a 65.8% win percentage - than 
+ - Louis Van Gaal, whose win percentage remained 50%.
+ - Mourinho's own first season, in which his win percentage was 47.4%.
+ 
+ 
+ 
+Even according to the loss percentage, **Jose Mourinho** clearly defeats Van Gaal at a 18.4% loss pitted against LVG's 26.3%, though falls short when his own first season is compared, which had a 13.2% loss among all matches.
+
+
