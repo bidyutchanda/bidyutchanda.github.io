@@ -26,6 +26,7 @@ description: Here to make and break a few things
 navbar-links:
   Blog: "https://bidyutchanda.github.io/"
   Contact/About Me: "aboutme"
+  Projects: "recentprojects"
   Resources:
     - Learn python my way: "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python"
     - The songs I listen to: "https://www.youtube.com/watch?v=hTWKbfoikeg&list=RDQMnH999JqJx5k"
