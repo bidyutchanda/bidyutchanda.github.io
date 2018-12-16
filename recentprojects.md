@@ -14,11 +14,11 @@ Links: [Blog](https://bidyutchanda.github.io/2018-12-14-united1/) | [Kaggle](htt
 Links: [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/ebuvenx)
 
 # Python Projects
-- **Wordmaster** - 
+### Wordmaster
 Links: [Blog](https://bidyutcreatesthese.wordpress.com/2018/11/15/wordmaster/) | [Github](https://github.com/bidyutchanda/WordMaster)
 
-- **IMDb Search Automation** - 
+### IMDb Search Automation
 Links: [Blog](https://bidyutchanda.github.io/2018-11-30-imdb/) | [Github](https://github.com/bidyutchanda/IMDbAutomation)
 
-- **Automatic Email Sender** - 
+### Automatic Email Sender
 Links: [Blog](https://bidyutchanda.github.io/2018-12-07-email/) | [Github](https://github.com/bidyutchanda/AutoEmailSender)
