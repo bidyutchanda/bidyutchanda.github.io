@@ -10,26 +10,26 @@ This page is an extensive list of all projects which I have completed, all of wh
 ### Manchester United Data Analysis #1 : How did the new managers perform?
 This project gives a detailed insight on how David Moyes, Louis Van Gaal and Jose Mourinho performed at the club when they became managers in their respective seasons taking into account the number of wins and losses during each season of their stay.
 
-Links: [Blog](https://bidyutchanda.github.io/2018-12-14-united1/) | [Kaggle](https://www.kaggle.com/bidyutchanda/manchester-united-data-analysis-1) | [Github](https://github.com/bidyutchanda/Manchester-United-Data-Analysis-1) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a6dm2h/oc_how_manchester_united_fared_in_recent_years/)
+[Blog](https://bidyutchanda.github.io/2018-12-14-united1/) | [Kaggle](https://www.kaggle.com/bidyutchanda/manchester-united-data-analysis-1) | [Github](https://github.com/bidyutchanda/Manchester-United-Data-Analysis-1) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a6dm2h/oc_how_manchester_united_fared_in_recent_years/)
 
 ### Analysis on freezing and thawing of Lake Mendota
 Lake Mendota is the northernmost and largest of the four lakes in Madison, Wisconsin. This project charts how the freezing and thawing of the lake happened over a period of 80 years. 
 
-Links: [Chart](https://imgur.com/zDO77RX) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/ebuvenx)
+[Chart](https://imgur.com/zDO77RX) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/ebuvenx)
 
 <br>
 # Python Projects
 ### Wordmaster
 An intelligent word-info proider which can do the work for you about finding anything about a word.
 
-Links: [Blog](https://bidyutcreatesthese.wordpress.com/2018/11/15/wordmaster/) | [Github](https://github.com/bidyutchanda/WordMaster)
+[Blog](https://bidyutcreatesthese.wordpress.com/2018/11/15/wordmaster/) | [Github](https://github.com/bidyutchanda/WordMaster)
 
 ### IMDb Search Automation
 Automatically redirects you to the IMDb page of a movie or a TV show by two clicks.
 
-Links: [Blog](https://bidyutchanda.github.io/2018-11-30-imdb/) | [Github](https://github.com/bidyutchanda/IMDbAutomation)
+[Blog](https://bidyutchanda.github.io/2018-11-30-imdb/) | [Github](https://github.com/bidyutchanda/IMDbAutomation)
 
 ### Automatic Email Sender
 A simple Python script which can send emails from your email ID to anyone, with authorization. 
 
-Links: [Blog](https://bidyutchanda.github.io/2018-12-07-email/) | [Github](https://github.com/bidyutchanda/AutoEmailSender)
+[Blog](https://bidyutchanda.github.io/2018-12-07-email/) | [Github](https://github.com/bidyutchanda/AutoEmailSender)
