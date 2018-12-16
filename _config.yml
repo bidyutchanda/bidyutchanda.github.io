@@ -24,11 +24,11 @@ description: Here to make and break a few things
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "https://bidyutchanda.github.io/"
-  Contact/About Me: "aboutme"
   Projects: "recentprojects"
+  Contact/About Me: "aboutme"
   Resources:
     - Learn python my way: "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python"
+    - Learn ML my way: "https://www.udemy.com/machinelearning/"
     - The songs I listen to: "https://www.youtube.com/watch?v=hTWKbfoikeg&list=RDQMnH999JqJx5k"
     - The books I read: "https://www.goodreads.com/review/list/26909690-bidyudipta-chanda?shelf=read"
   
