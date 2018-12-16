@@ -8,12 +8,13 @@ subtitle: AKA, where we know each other a li'l bit more
 
 <img src="/img/user-graduate-solid.svg" align="left" height="20" width="20" hspace="14" />Obtained my Bachelor of **Computer Science and Engineering** from Heritage Institute of Technology, Kolkata, India. My final year project involved [extracting sentiments out from a tweet to project them on a world map](https://bidyutchanda.github.io/2018-11-23-twitter/).
 
-<img src="/img/terminal-solid.svg" align="left" height="20" width="20" hspace="14" />I love to write codes in Python, especially, when I am working on my laptop to make my and everyone's lives a little bit easier. Every one of my project is listed in the [Blog](https://bidyutchanda.github.io/) link in the navigation bar. 
-
 <img src="/img/grin-hearts-solid.svg" align="left" height="20" width="20" hspace="14" />My favorite football team is Manchester United and I follow them week in, week out. I love to read books to take my mind off things, my last book has been Arundhati Roy's [The God of Small Things](https://en.wikipedia.org/wiki/The_God_of_Small_Things). Also, most of my Internet data is taken up by Spotify in looking for any new rock song in the radar. My all-time favourite rock song is [Sweet Child O' Mine](https://www.youtube.com/watch?v=1w7OgIMMRc4) by Guns N' Roses. 
 
 <img src="/img/map-solid.svg" align="left" height="20" width="20" hspace="14" />Grew up in Burdwan, a small town in West Bengal, India; stayed in Kolkata for four years to complete my Bachelors. Currently, residing in Bangalore, Karnataka. 
 
+# Recent Projects
+
+- Manchester United Data Analysis #1 - [Kaggle](https://www.kaggle.com/bidyutchanda/manchester-united-data-analysis-1) | [Github](https://github.com/bidyutchanda/Manchester-United-Data-Analysis-1) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a6dm2h/oc_how_manchester_united_fared_in_recent_years/)
 
 # Contact
 
