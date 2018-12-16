@@ -14,14 +14,6 @@ subtitle: AKA, where we know each other a li'l bit more
 
 <img src="/img/map-solid.svg" align="left" height="20" width="20" hspace="14" />Grew up in Burdwan, a small town in West Bengal, India; stayed in Kolkata for four years to complete my Bachelors. Currently, residing in Bangalore, Karnataka. 
 
-# Recent Projects
-
-- **Manchester United Data Analysis #1 : How did the new managers perform?** - [Blog](https://bidyutchanda.github.io/2018-12-14-united1/) / [Kaggle](https://www.kaggle.com/bidyutchanda/manchester-united-data-analysis-1) / [Github](https://github.com/bidyutchanda/Manchester-United-Data-Analysis-1) / [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a6dm2h/oc_how_manchester_united_fared_in_recent_years/)
-- **Analysis on freezing and thawing of Lake Mendota** - [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/ebuvenx)
-- **Wordmaster** - [Blog](https://bidyutcreatesthese.wordpress.com/2018/11/15/wordmaster/) / [Github](https://github.com/bidyutchanda/WordMaster)
-- **IMDb Search Automation** - [Blog](https://bidyutchanda.github.io/2018-11-30-imdb/) / [Github](https://github.com/bidyutchanda/IMDbAutomation)
-- **Automatic Email Sender** - [Blog](https://bidyutchanda.github.io/2018-12-07-email/) / [Github](https://github.com/bidyutchanda/AutoEmailSender)
-
 # Contact
 
 You can [email me](mailto:bdptma108@gmail.com) or send me a message via [LinkedIn](https://www.linkedin.com/in/bidyutchanda/). I would absolutely love to collaborate with you in any project that is interesting or if you want to work with me to improve any of my previous projects. 
