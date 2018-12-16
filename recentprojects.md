@@ -8,7 +8,7 @@ This page is an extensive list of all projects which I have completed, all of wh
 <br><br>
 # Data Analysis Projects 
 ### Manchester United Data Analysis #1 : How did the new managers perform? 
-Links: [Blog](https://bidyutchanda.github.io/2018-12-14-united1/) | [Kaggle](https://www.kaggle.com/bidyutchanda/manchester-united-data-analysis-1) / [Github](https://github.com/bidyutchanda/Manchester-United-Data-Analysis-1) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a6dm2h/oc_how_manchester_united_fared_in_recent_years/)
+Links: [Blog](https://bidyutchanda.github.io/2018-12-14-united1/) | [Kaggle](https://www.kaggle.com/bidyutchanda/manchester-united-data-analysis-1) | [Github](https://github.com/bidyutchanda/Manchester-United-Data-Analysis-1) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a6dm2h/oc_how_manchester_united_fared_in_recent_years/)
 
 ### Analysis on freezing and thawing of Lake Mendota  
 Links: [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/ebuvenx)
