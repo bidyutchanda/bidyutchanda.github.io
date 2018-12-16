@@ -14,7 +14,7 @@ subtitle: AKA, where we know each other a li'l bit more
 
 # Recent Projects
 
-- **Manchester United Data Analysis #1** - [Kaggle](https://www.kaggle.com/bidyutchanda/manchester-united-data-analysis-1) | [Github](https://github.com/bidyutchanda/Manchester-United-Data-Analysis-1) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a6dm2h/oc_how_manchester_united_fared_in_recent_years/)
+- **Manchester United Data Analysis #1** - [Kaggle](https://www.kaggle.com/bidyutchanda/manchester-united-data-analysis-1) / [Github](https://github.com/bidyutchanda/Manchester-United-Data-Analysis-1) / [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a6dm2h/oc_how_manchester_united_fared_in_recent_years/)
 - **Analysis on freezing and thawing of Lake Mendota** - [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/ebuvenx)
 
 # Contact
