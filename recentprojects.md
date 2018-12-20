@@ -15,7 +15,7 @@ This project gives a detailed insight on how David Moyes, Louis Van Gaal and Jos
 ### Gender Demography on covers of Time from 1923-2013
 This data visualization project gives an overview on how the gender fairness was maintained or neglected by [Time](http://time.com/), one of the most popular media magazines in recent times, on the cover pictures of their issues over a period of 80 years, since their advent.
 
-[Blog]() | [Kaggle](https://www.kaggle.com/bidyutchanda/does-time-prefer-men-or-women-on-their-covers) | [Github](https://github.com/bidyutchanda/Gender-Analysis-on-Time-covers) | [Reddit]()
+[Blog](https://bidyutchanda.github.io/2018-12-21-TIMEgender/) | [Kaggle](https://www.kaggle.com/bidyutchanda/does-time-prefer-men-or-women-on-their-covers) | [Github](https://github.com/bidyutchanda/Gender-Analysis-on-Time-covers) | [Reddit]()
 
 ### Analysis on freezing and thawing of Lake Mendota
 Lake Mendota is the northernmost and largest of the four lakes in Madison, Wisconsin. This project charts how the freezing and thawing of the lake happened over a period of 80 years. 
