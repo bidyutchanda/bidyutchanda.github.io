@@ -1,16 +1,27 @@
+---
+layout: post
+title: Gender Analysis on Time covers (1923-2013)
+subtitle: How did Time maintain gender diversity on their covers?
+show-avatar: false
+bigimg: /img/TIMEcover.jpg
+share-img: /img/TIMEcover.jpg
+gh-repo: bidyutchanda/Gender-Analysis-on-Time-covers
+gh-badge: [star, fork, follow]
+tags: [data visualisation,gender,python,pandas,Time]
+---
 
-# **Introduction**
+## Introduction
 [Time](http://time.com/) is an American weekly news magazine and news website published in New York City. It was founded in 1923 and originally run by Henry Luce.
 
 Time has the world's largest circulation for a weekly news magazine. The print edition has a readership of 26 million, 20 million of whom are based in the United States. In mid-2012, its circulation was over three million, which had lowered to two million by late 2017.
 
 The uploaded dataset sheds light on how gender diversity is maintained while choosing cover pictures for the magazine since their beginning in 1923 till 2013. 
 
-Does Time really abide by equality? In this world of media having infiltrated our lives to the greatest extent, is Time a responsible bearer of gender miscellany? These are the few questions I tried to address via the dataset. 
+**Does Time really abide by equality? In this world of media having infiltrated our lives to the greatest extent, is Time a responsible bearer of gender miscellany? These are the few questions I tried to address via this blog post.**
 
-
-# **Exploratory Analysis**
-## A. Importing libraries
+<br>
+## Exploratory Analysis
+### A. Importing libraries
 To begin this exploratory analysis, we first import libraries and define functions for plotting the data using `matplotlib`, `numpy` and `pandas`. We then show how the gender demography has shaped itself on the covers of Time over a period of 80 years. 
 
 
@@ -22,7 +33,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 
 ```
 
-## B. Accessing the data
+### B. Accessing the data
 There is 1 csv file in the current version of the dataset:
 
 
@@ -34,15 +45,15 @@ print(os.listdir('../input'))
     ['TIMEGenderData.csv']
 
 
-## C. Reading the data
+### C. Reading the data
 We read the data and store it in a dataframe using `read_csv`.
 
 
 ```python
-data = pd.read_csv("../input/TIMEGenderData.csv")
+data = pd.read_csv("/TIMEGenderData.csv")
 ```
 
-## D. Analysing the data
+### D. Analysing the data
 Take a look how the data looks like. 
 
 
@@ -268,7 +279,7 @@ To expunge this problem, again, we can do two things.
 
 I personally prefer calculating the percentage values from scratch since we already have the numbers given too. And hence, we will proceed with that here. But the first approach can be used too. 
 
-## E. Modifying the data
+### E. Modifying the data
 <br>
 First we drop the columns from the frame which cannot be used. 
 
@@ -394,7 +405,7 @@ data.head()
 
 Yay! Our problem is solved. We have the percentage values in `int` which we can now plot on a beautiful stacked bar chart.
 
-# **Visualization of Data**
+## Visualization of Data
 <br>
 The percentage values have been converted, not typecasted, from `float` to `int` here and hence what we popularly call as **rounded** values in mathematics have not been taken. The conversion has been done by **flooring** the values. 
 
@@ -431,7 +442,7 @@ We run this above cell, but we do not get any message saying `Error`. Hence, we 
 
 Now finally we can proceed to making the plot. 
 <br>
-## A. Plotting on a Stacked Bar Graph
+### A. Plotting on a Stacked Bar Graph
 
 
 ```python
@@ -453,11 +464,11 @@ plt.title('Analysis of male and female personalities on covers of TIME (1923-201
 plt.show()
 ```
 
-
+<br>
 ![png](/img/TIMEstacked.png)
+<br>
 
-
-## B. Plotting on a Scatter Plot with a Regression Line
+### B. Plotting on a Scatter Plot with a Regression Line
 
 
 ```python
@@ -475,11 +486,11 @@ plt.show()
 ```
 
 
-
+<br>
 ![png](/img/TIMEscatter.png)
+<br>
 
-
-# **Conclusion**
+## Conclusion
 <br>
 * **From the stacked bar graph** :
 The stacked bar graph above shows how the covers of Time for a period of 80 years have **preferred men over women** constantly and by a huge huge margin, especially during the early years and in some years of the 1940s. 
