@@ -465,7 +465,7 @@ plt.show()
 ```
 
 <br>
-<img src="/img/TIMEstacked.png" width="1000" height="700" align="middle"/>
+<img src="/img/TIMEstacked.png" width="1600" height="500" align="middle"/>
 <br>
 
 ### B. Plotting on a Scatter Plot with a Regression Line
