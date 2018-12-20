@@ -20,6 +20,16 @@ The uploaded dataset sheds light on how gender diversity is maintained while cho
 **Does Time really abide by equality? In this world of media having infiltrated our lives to the greatest extent, is Time a responsible bearer of gender miscellany? These are the few questions I tried to address via this blog post.**
 
 <br>
+## Project Details
+- The Kaggle notebook for this project to fork is linked [here](https://www.kaggle.com/bidyutchanda/does-time-prefer-men-or-women-on-their-covers).
+- The Time Cover data used here is another [Kaggle dataset](https://www.kaggle.com/bidyutchanda/cover-pictures-of-time).
+- The Github repo for this can be accessed from [here](https://github.com/bidyutchanda/Gender-Analysis-on-Time-covers).
+- Python libraries used extensively are :
+    - [pandas](https://pandas.pydata.org/) - For analysing the data. 
+    - [Matplotlib](https://matplotlib.org/index.html#) - For plotting the stacked bar graph. 
+    - [seaborn](https://seaborn.pydata.org/) - For plotting the scatter graph.
+
+<br>
 ## Exploratory Analysis
 ### A. Importing libraries
 To begin this exploratory analysis, we first import libraries and define functions for plotting the data using `matplotlib`, `numpy` and `pandas`. We then show how the gender demography has shaped itself on the covers of Time over a period of 80 years. 
