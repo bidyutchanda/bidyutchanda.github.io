@@ -280,7 +280,7 @@ To expunge this problem, again, we can do two things.
 I personally prefer calculating the percentage values from scratch since we already have the numbers given too. And hence, we will proceed with that here. But the first approach can be used too. 
 
 ### E. Modifying the data
-<br>
+
 First we drop the columns from the frame which cannot be used. 
 
 
@@ -404,9 +404,9 @@ data.head()
 
 
 Yay! Our problem is solved. We have the percentage values in `int` which we can now plot on a beautiful stacked bar chart.
-
-## Visualization of Data
 <br>
+## Visualization of Data
+
 The percentage values have been converted, not typecasted, from `float` to `int` here and hence what we popularly call as **rounded** values in mathematics have not been taken. The conversion has been done by **flooring** the values. 
 
 For example, `2.86` should have been rounded to `3` but has been floored to `2`. 
@@ -489,9 +489,8 @@ plt.show()
 <br>
 ![png](/img/TIMEscatter.png)
 <br>
-
-## Conclusion
 <br>
+## Conclusion
 * **From the stacked bar graph** :
 The stacked bar graph above shows how the covers of Time for a period of 80 years have **preferred men over women** constantly and by a huge huge margin, especially during the early years and in some years of the 1940s. 
 
