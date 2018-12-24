@@ -17,6 +17,11 @@ This data visualization project gives an overview on how the gender fairness was
 
 [Blog](https://bidyutchanda.github.io/2018-12-21-TIMEgender/) | [Kaggle](https://www.kaggle.com/bidyutchanda/does-time-prefer-men-or-women-on-their-covers) | [Github](https://github.com/bidyutchanda/Gender-Analysis-on-Time-covers) | [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/a8io8b/oc_how_time_has_neglected_gender_diversity_on_its/)
 
+### Tweet Sentiment Analyzer
+This project portrays sentimentally analyzed tweets over a Leaflet map, when fed with a hastag. Tweets are fetched live, given a polarity value and mapped via different color codes with respect to the polarities. 
+
+[Blog](https://bidyutchanda.github.io/2018-11-23-twitter/) | [Github](https://github.com/bidyutchanda/Tweet-based-Trends-plotting-using-Hashtags)
+
 ### Analysis on freezing and thawing of Lake Mendota
 Lake Mendota is the northernmost and largest of the four lakes in Madison, Wisconsin. This project charts how the freezing and thawing of the lake happened over a period of 80 years. 
 
@@ -38,3 +43,5 @@ Automatically redirects you to the IMDb page of a movie or a TV show by two clic
 A simple Python script which can send emails from your email ID to anyone, with authorization. 
 
 [Blog](https://bidyutchanda.github.io/2018-12-07-email/) | [Github](https://github.com/bidyutchanda/AutoEmailSender)
+
+
