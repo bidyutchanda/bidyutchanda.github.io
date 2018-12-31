@@ -26,13 +26,14 @@ favicon: "img/22181385_1423595077675865_6642621937315172914_o.jpg"
 
 # List of links in the navigation bar
 navbar-links:
-  Projects: "recentprojects"
-  Contact/About Me: "aboutme"
-  Resources:
-    - Learn python my way: "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python"
-    - Learn ML my way: "https://www.udemy.com/machinelearning/"
-    - The songs I listen to: "https://www.youtube.com/watch?v=hTWKbfoikeg&list=RDQMnH999JqJx5k"
-    - The books I read: "https://www.goodreads.com/review/list/26909690-bidyudipta-chanda?shelf=read"
+   Click Me for a New Year Surprise!: "https://goo.gl/forms/LuNiu1i2c30N8QkN2"
+  # Projects: "recentprojects"
+  #Contact/About Me: "aboutme"
+  #Resources:
+   # - Learn python my way: "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python"
+   # - Learn ML my way: "https://www.udemy.com/machinelearning/"
+   # - The songs I listen to: "https://www.youtube.com/watch?v=hTWKbfoikeg&list=RDQMnH999JqJx5k"
+   # - The books I read: "https://www.goodreads.com/review/list/26909690-bidyudipta-chanda?shelf=read"
   
 
 # Image to show in the navigation bar - image must be a square (width = height)
