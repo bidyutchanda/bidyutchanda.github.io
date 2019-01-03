@@ -32,9 +32,9 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
-        
-        {{ content }}
         {% include ads.html %}
+        {{ content }}
+        
       </article>
 
       {% if page.tags.size > 0 %}
