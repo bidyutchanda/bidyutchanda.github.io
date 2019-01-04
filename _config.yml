@@ -28,7 +28,8 @@ favicon: "img/22181385_1423595077675865_6642621937315172914_o.jpg"
 navbar-links:
    #Click Me for a New Year Surprise!: "https://goo.gl/forms/LuNiu1i2c30N8QkN2"
    Projects: "recentprojects"
-   Contact/About Me: "aboutme"
+   About Me: "aboutme"
+   Portfolio: "https://bidyutchanda.github.io/portfolio"
    Resources:
      - Learn python my way: "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python"
      - Learn ML my way: "https://www.udemy.com/machinelearning/"
