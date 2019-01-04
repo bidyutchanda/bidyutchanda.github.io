@@ -16,7 +16,7 @@ tags: [data visualisation,gender,python,pandas,Time]
 Time has the world's largest circulation for a weekly news magazine. The print edition has a readership of 26 million, 20 million of whom are based in the United States. In mid-2012, its circulation was over three million, which had lowered to two million by late 2017.
 
 The uploaded dataset sheds light on how gender diversity is maintained while choosing cover pictures for the magazine since their beginning in 1923 till 2013. 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~bidyutchanda/7.embed"></iframe>
+<iframe width="900" height="600" frameborder="0" scrolling="no" src="//plot.ly/~bidyutchanda/7.embed"></iframe>
 **Does Time really abide by equality? In this world of media having infiltrated our lives to the greatest extent, is Time a responsible bearer of gender miscellany? These are the few questions I tried to address via this blog post.**
 
 <br>
