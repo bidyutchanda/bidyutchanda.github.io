@@ -29,7 +29,6 @@ navbar-links:
    #Click Me for a New Year Surprise!: "https://goo.gl/forms/LuNiu1i2c30N8QkN2"
    Projects: "recentprojects"
    About Me: "aboutme"
-   Portfolio: "https://bidyutchanda.github.io/portfolio"
    Resources:
      - Learn python my way: "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python"
      - Learn ML my way: "https://www.udemy.com/machinelearning/"
