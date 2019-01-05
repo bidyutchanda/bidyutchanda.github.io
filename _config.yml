@@ -29,7 +29,7 @@ navbar-links:
    #Click Me for a New Year Surprise!: "https://goo.gl/forms/LuNiu1i2c30N8QkN2"
    My Resume : "https://docs.google.com/document/d/1seTEMQb_T5Xw1OJ1zFPkDGxjraEbjEm3woJM1kuXt8c/edit?usp=sharing"
    Projects: "recentprojects"
-   About Me: "aboutme"
+   Contact/About Me: "aboutme"
    Resources:
      - Learn python my way: "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python"
      - Learn ML my way: "https://www.udemy.com/machinelearning/"
