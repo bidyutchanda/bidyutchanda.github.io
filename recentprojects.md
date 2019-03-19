@@ -10,7 +10,7 @@ This page is an extensive list of all projects which I have completed, all of wh
 ### Predicting the type of art using CNNs and FastAI (Accuracy = 94.7%)
 This project predicts whether a type of art is a drawing, a sculpture, an iconography, an engraving or a painting by reading 9000 images over all these categories.
 
-[Blog](https://bidyutchanda.github.io/2019-03-18-art_pred/) | [Github](https://github.com/bidyutchanda/art-prediction-FastAI)
+[Blog](https://bidyutchanda.github.io/2019-03-19-art_pred/) | [Github](https://github.com/bidyutchanda/art-prediction-FastAI)
 
 <br>
 # Data Analysis Projects 
