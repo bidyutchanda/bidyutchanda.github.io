@@ -7,7 +7,7 @@ subtitle: AKA, the things which eat away my free time
 This page is an extensive list of all projects which I have completed, all of whose source codes are available online. In case you want to talk to me about any of my projects or host an idea of improvement for any, feel free to mail me or send me a message. All of my contact details are available at my [Contact Me](https://bidyutchanda.github.io/aboutme/) page.
 <br><br>
 # Image Recognition Projects
-### Predicting the type of art using CNNs and FastAI
+### Predicting the type of art using CNNs and FastAI (Accuracy = 94.7%)
 This project predicts whether a type of art is a drawing, a sculpture, an iconography, an engraving or a painting by reading 9000 images over all these categories.
 
 [Blog](https://bidyutchanda.github.io/2019-03-18-art_pred/) | [Github](https://github.com/bidyutchanda/art-prediction-FastAI)
