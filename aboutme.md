@@ -15,7 +15,7 @@ subtitle: AKA, where we know each other a li'l bit more
 <img src="/img/map-solid.svg" align="left" height="20" width="20" hspace="14" />Grew up in Burdwan, a small town in West Bengal, India; stayed in Kolkata for four years to complete my Bachelors. Currently, residing in Bangalore, Karnataka. 
 
 ### My resume is [here](https://drive.google.com/file/d/1WRx1XHcDvDyA0SqNsH1ZCC9x4qjPK4Qc/view?usp=sharing).
-
+<br>
 # Contact
 
 You can [email me](mailto:bdptma108@gmail.com) or send me a message via [LinkedIn](https://www.linkedin.com/in/bidyutchanda/). I would absolutely love to collaborate with you in any project that is interesting or if you want to work with me to improve any of my previous projects. 
